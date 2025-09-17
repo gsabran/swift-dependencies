@@ -84,7 +84,7 @@ let package = Package(
 
 #if !os(WASI)
   package.dependencies.append(contentsOf: [
-    .package(url: "https://github.com/pointfreeco/swift-macro-testing", from: "0.2.0")
+    .package(url: "https://github.com/gsabran/swift-macro-testing", revision: "870a84f50958938875b1f94456cbee9f39103c53")
   ])
   package.targets.append(contentsOf: [
     .testTarget(
